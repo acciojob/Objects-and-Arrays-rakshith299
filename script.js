@@ -5,7 +5,14 @@ const person = {
   age: 80,
 };
 
-var team;
+
+players.pop();
+
+players.push("Dhoni");
+
+var team =  ["John", "Bob", "Alice", "Poppy"];
+console.log("players " + players);
+console.log("team " + team);
 var team1 = ["Anil", "Rahul", "Surya", "Gopi"];
 var cap1 = {
 	name: "Tara",
