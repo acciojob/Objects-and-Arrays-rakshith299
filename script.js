@@ -6,8 +6,11 @@ const person = {
 };
 
 var team;
-var team1 = players;
-var cap1 = person;
+var team1 = ["Anil", "Rahul", "Surya", "Gopi"];
+var cap1 = {
+	name: "Tara",
+	age: 32
+};
 
 console.log(team1);
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
