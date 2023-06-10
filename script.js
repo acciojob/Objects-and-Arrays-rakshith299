@@ -7,10 +7,11 @@ const person = {
 
 
 let team  = [...players];
-players.pop();
-players.push("Dhoni");
 
 let team1 = [...players];
+players.pop();
+console.log(team1);
+console.log(players);
 
 let cap1 = {
 	...person
