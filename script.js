@@ -7,12 +7,23 @@ const person = {
 
 
 let team  = [...players];
-
 players.pop();
 players.push("Dhoni");
 
+let team1 = [];
+for(let x of players){
+	team1.push(x);
+}
+
+let cap1 = {
+	...person
+};
+
 //console.log(team);
 //console.log(players);
+//console.log(team1);
+//console.log(cap1);
+
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
 window.players = players;
