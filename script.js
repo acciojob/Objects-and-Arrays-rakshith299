@@ -6,10 +6,8 @@ const person = {
 };
 
 
-let team  = [];
-for(let x of players){
-	team.push(x);
-}
+let team  = players;
+
 
 let team1 = [...players];
 
@@ -17,8 +15,8 @@ let cap1 = {
 	...person
 };
 
-//console.log(team);
-//console.log(players);
+console.log(team);
+console.log(players);
 //console.log(team1);
 //console.log(cap1);
 
