@@ -9,9 +9,6 @@ const person = {
 let team  = [...players];
 
 let team1 = [...players];
-players.pop();
-console.log(team1);
-console.log(players);
 
 let cap1 = {
 	...person
