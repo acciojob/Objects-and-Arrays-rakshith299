@@ -6,20 +6,9 @@ const person = {
 };
 
 
-players.pop();
+let team  = [...players];
 
-players.push("Dhoni");
-
-var team =  ["John", "Bob", "Alice", "Poppy"];
-console.log("players " + players);
-console.log("team " + team);
-var team1 = ["Anil", "Rahul", "Surya", "Gopi"];
-var cap1 = {
-	name: "Tara",
-	age: 32
-};
-
-console.log(team1);
+console.log(team);
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
 window.players = players;
