@@ -10,10 +10,7 @@ let team  = [...players];
 players.pop();
 players.push("Dhoni");
 
-let team1 = [];
-for(let x of players){
-	team1.push(x);
-}
+let team1 = [...players];
 
 let cap1 = {
 	...person
