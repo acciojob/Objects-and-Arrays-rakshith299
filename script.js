@@ -6,7 +6,10 @@ const person = {
 };
 
 
-let team  = [...players];
+let team  = [];
+for(let x of players){
+	team.push(x);
+}
 
 let team1 = [...players];
 
