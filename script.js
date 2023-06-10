@@ -8,14 +8,11 @@ const person = {
 
 let team  = [...players];
 
-console.log(team);
+players.pop();
+players.push("Dhoni");
 
-team.pop();
-
-team.push("Dhoni");
-
-console.log(team);
-console.log(players);
+//console.log(team);
+//console.log(players);
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
 window.players = players;
